@@ -1,42 +1,42 @@
-## Step 4: Trigger the workflow
+## ステップ4：ワークフローをトリガーする
 
-_You've now added a fully functioning workflow to your repository! :smile:_
+_これで、完全に機能するワークフローをリポジトリに追加できました！😄_
 
-### 📖 Theory: Seeing your workflow in action
+### 📖 理論：ワークフローの動作を確認する
 
-All the running and finished workflows can be seen on the **Actions** tab of your repository.
+実行中および完了したすべてのワークフローは、リポジトリの**Actions**タブで確認できます。
 
-Because you set the workflow to run on the `pull_request` event, it will automatically trigger when a pull request is opened.
+ワークフローを`pull_request`イベントで実行するように設定したため、プルリクエストがオープンされると自動的にトリガーされます。
 
 > [!TIP]
-> Workflow associated to pull request can also be seen on the pull request log near the merge button. You can even [create a rule](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets#require-status-checks-to-pass-before-merging) that prevents merging if the workflow fails! 
+> プルリクエストに関連付けられたワークフローは、マージボタンの近くにあるプルリクエストのログでも確認できます。ワークフローが失敗した場合にマージを防ぐ[ルールを作成](https://docs.github.com/ja/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/available-rules-for-rulesets#require-status-checks-to-pass-before-merging)することもできます！
 
-### ⌨️ Activity: Trigger the workflow
+### ⌨️ アクティビティ：ワークフローをトリガーする
 
-1. In the **Pull requests** tab, create a pull request from `welcome-workflow` branch into `main`.
+1. **Pull requests**タブで、`welcome-workflow`ブランチから`main`ブランチへのプルリクエストを作成します。
 
-1. Notice the comment that the workflow adds to the pull request.
+1. ワークフローがプルリクエストに追加するコメントに注目してください。
 
-1. Notice the area near the merge button that "All checks have passed".
+1. マージボタンの近くの領域に「All checks have passed」と表示されていることに注目してください。
 
-1. With the pull request created and our workflow triggered, Mona will prepare the next step in this exercise!
+1. プルリクエストが作成され、ワークフローがトリガーされると、Monaがこの演習の次のステップを準備します！
 
-### ⌨️ Activity: (optional) Inspect the workflow
+### ⌨️ アクティビティ：（任意）ワークフローを検査する
 
-1. At the top of the repository, select the **Actions** tab.
+1. リポジトリの上部にある**Actions**タブを選択します。
 
-1. In the left sidebar, select the workflow named **Post welcome comment**.
+1. 左側のサイドバーで、**Post welcome comment**という名前のワークフローを選択します。
 
-  > 💡 **Tip:** You can ignore the other actions. Those were for teaching this exercise.
+  > 💡 **ヒント：** 他のアクションは無視してかまいません。それらはこの演習を教えるためのものでした。
 
-1. Click the first run entry titled **Welcome workflow** to show a diagram of the run's jobs.
+1. **Welcome workflow**というタイトルの最初の実行エントリをクリックして、実行のジョブの図を表示します。
 
-1. Click on the job named **Post welcome comment** to see the full logs.
+1. **Post welcome comment**という名前のジョブをクリックして、完全なログを表示します。
 
 
 <details>
-<summary>Having trouble? 🤷</summary><br/>
+<summary>問題が発生しましたか？ 🤷</summary><br/>
 
-- Check the **Actions** tab for workflow run details and errors.
+- ワークフローの実行詳細とエラーについては、**Actions**タブを確認してください。
 
 </details>

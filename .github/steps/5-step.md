@@ -1,19 +1,18 @@
-## Step 5: Merge and experiment
+## ステップ5：マージして試してみる
 
-_Great job! You have created and tested your first GitHub Actions workflow!_ :rocket:
+_素晴らしいです！最初のGitHub Actionsワークフローを作成し、テストしました！_ 🚀
 
-### 📖 Theory: When workflows run
+### 📖 理論：ワークフローが実行されるとき
 
-When you create a workflow in a branch, it is only enabled for that branch until you merge it into the default branch (`main`). When a workflow is in the default branch it applies to the entire repository.
+ブランチでワークフローを作成すると、デフォルトブランチ（`main`）にマージされるまで、そのブランチでのみ有効になります。ワークフローがデフォルトブランチにある場合、リポジトリ全体に適用されます。
 
-Every new pull request regardless of branch will now automatically trigger the workflow you created.
+ブランチに関係なく、すべての新しいプルリクエストは、作成したワークフローを自動的にトリガーします。
 
 > [!TIP]
-> Some event triggers, like [workflow_dispatch](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#workflow_dispatch) and [schedule](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule) will only work if the workflow file exists in default branch. 
+> [workflow_dispatch](https://docs.github.com/ja/actions/using-workflows/events-that-trigger-workflows#workflow_dispatch)や[schedule](https://docs.github.com/ja/actions/using-workflows/events-that-trigger-workflows#schedule)のような一部のイベントトリガーは、ワークフローファイルがデフォルトブランチに存在する場合にのみ機能します。
 
-### ⌨️ Activity: Merging your pull request
+### ⌨️ アクティビティ：プルリクエストをマージする
 
-1. Merge your pull request into the `main` branch.
+1. プルリクエストを`main`ブランチにマージします。
 
-1. (Optional) Try opening another pull request to see your workflow run again!
-
+1. （任意）別のプルリクエストを開いて、ワークフローが再度実行されるのを確認してみてください！

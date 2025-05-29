@@ -1,18 +1,18 @@
-## Finish
+## 完了
 
-_Congratulations friend, you've completed this exercise!_
+_おめでとうございます、友よ。この演習を完了しました！_
 
-<img src="https://octodex.github.com/images/jetpacktocat.png" alt="Mona the Octocat wearing a jetpack and smiling." width="300" align="right"/>
+<img src="https://octodex.github.com/images/jetpacktocat.png" alt="ジェットパックを背負って微笑むタコ猫のモナ。" width="300" align="right"/>
 
-Here's a recap of all the tasks you've accomplished in your repository:
+リポジトリで達成したすべてのタスクのまとめです：
 
-1. You've created your first GitHub Actions workflow file.
-1. You learned where to make your workflow file.
-1. You defined an event trigger, a job, and a step for your workflow.
-1. You're ready to automate anything you can dream of.
+1. 最初のGitHub Actionsワークフローファイルを作成しました。
+1. ワークフローファイルを作成する場所を学びました。
+1. ワークフローのイベントトリガー、ジョブ、ステップを定義しました。
+1. 想像できるあらゆることを自動化する準備ができました。
 
-### What's next?
+### 次は何をする？
 
-- [Take another exercise](https://skills.github.com/)
-- [Learn more about GitHub Actions](https://docs.github.com/actions/)
+- [別の演習に取り組む](https://skills.github.com/)
+- [GitHub Actionsについてさらに学ぶ](https://docs.github.com/ja/actions/)
 - [Awesome Actions](https://github.com/sdras/awesome-actions)

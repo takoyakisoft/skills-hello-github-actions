@@ -1,21 +1,21 @@
-## Step 2: Add a job to your workflow file
+## ステップ2：ワークフローファイルにジョブを追加する
 
-Nice work! :tada: You added a workflow file!
+素晴らしい出来です！🎉 ワークフローファイルを追加しましたね！
 
-### 📖 Theory: Introduction to jobs
+### 📖 理論：ジョブ入門
 
-A [job](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions#jobs) is a group of steps that run together on the same [runner](https://docs.github.com/en/actions/using-github-hosted-runners/using-github-hosted-runners/about-github-hosted-runners) within a workflow. Each job is defined under the `jobs` section and runs independently and in parallel by default.
+[ジョブ](https://docs.github.com/ja/actions/learn-github-actions/understanding-github-actions#jobs)とは、ワークフロー内で同じ[ランナー](https://docs.github.com/ja/actions/using-github-hosted-runners/about-github-hosted-runners)上でまとめて実行される一連のステップのグループです。各ジョブは`jobs`セクションで定義され、デフォルトでは独立して並行に実行されます。
 
-Jobs help you organize your workflow into logical units, such as building, testing, or deploying your code.
+ジョブは、ワークフローをコードのビルド、テスト、デプロイなどの論理的な単位に整理するのに役立ちます。
 
-> [!Tip]
-> You can define a job to run with multiple [variations using a matrix strategy](https://docs.github.com/en/actions/writing-workflows/choosing-what-your-workflow-does/running-variations-of-jobs-in-a-workflow).
+> [!TIP]
+> [マトリックス戦略を使用して、複数のバリエーションで実行するジョブを定義](https://docs.github.com/ja/actions/using-workflows/using-a-matrix-for-your-jobs)できます。
 
-### ⌨️ Activity: Add a job to your workflow file
+### ⌨️ アクティビティ：ワークフローファイルにジョブを追加する
 
-1. In the `welcome-workflow` branch, open your `.github/workflows/welcome.yml` file.
+1. `welcome-workflow`ブランチで、`.github/workflows/welcome.yml`ファイルを開きます。
 
-1. Edit the file to add the `jobs` section and 1 job named `welcome`, which will run on the latest Ubuntu operating system.
+1. ファイルを編集して`jobs`セクションと、最新のUbuntuオペレーティングシステムで実行される`welcome`という名前のジョブを1つ追加します。
 
    ```yaml
    name: Post welcome comment
@@ -30,14 +30,14 @@ Jobs help you organize your workflow into logical units, such as building, testi
        runs-on: ubuntu-latest
    ```
 
-1. Commit your changes to the `welcome-workflow` branch.
+1. 変更を`welcome-workflow`ブランチにコミットします。
 
-1. With the job information added, Mona will review your work and prepare the next step in this exercise!
+1. ジョブ情報を追加すると、Monaがあなたの作業を確認し、この演習の次のステップを準備します！
 
 <details>
-<summary>Having trouble? 🤷</summary><br/>
+<summary>問題が発生しましたか？ 🤷</summary><br/>
 
-- Make sure the `jobs` section is properly indented in your YAML file.
-- Confirm you are editing the correct file and branch.
+- `jobs`セクションがYAMLファイルで正しくインデントされていることを確認してください。
+- 正しいファイルとブランチを編集していることを確認してください。
 
 </details>
