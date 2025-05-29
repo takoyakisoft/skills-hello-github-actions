@@ -1,20 +1,19 @@
-# Congratulations! :tada:
+# おめでとうございます！ :tada:
 
 <img src="https://octodex.github.com/images/welcometocat.png" align="right" height="250px" />
 
-Yay **takoyakisoft** you finished the exercise! Nice work :tada:
+やりましたね、**takoyakisoft** さん！エクササイズ完了です！素晴らしい出来栄えです :tada:
 
-If you would like to retrace your steps, you can always revisit the exercise.
+もし手順をもう一度確認したい場合は、いつでもこのエクササイズに戻って見直すことができます。
 
-[![](https://img.shields.io/badge/Return%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/takoyakisoft/skills-hello-github-actions/issues/1)
+[![](https://img.shields.io/badge/エクササイズに戻る-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/takoyakisoft/skills-hello-github-actions/issues/1)
 
 > [!TIP]
-> Mona won't grade you this time! 😉
+> 今回はモナが採点することはありません！😉
 
 
-### Craving more? :raising_hand:
+### もっと学びたいですか？ :raising_hand:
 
-Did you enjoy this practical style of learning? There's no better way to learn than building things, right?!
+この実践的な学習方法はお楽しみいただけましたか？ やはり、実際に手を動かして何かを作るのが一番の学習方法ですよね！
 
-Let's keep the momentum going! Head over to [GitHub Skills](https://skills.github.com) catalog to find another hands-on exercise. :rocket:
-
+この調子で続けましょう！ [GitHub Skills](https://skills.github.com) のカタログで、他のハンズオンエクササイズも探してみましょう。 :rocket:
